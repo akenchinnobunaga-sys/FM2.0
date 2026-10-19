@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-opacity="0.25" flood-color="#064e3b" />
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Inner subtle border -->
+  <rect x="8" y="8" width="496" height="496" rx="120" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="4" />
+
+  <!-- Main Symbol Group with Shadow -->
+  <g filter="url(#shadow)">
+    <!-- Shield / Wallet Outline -->
+    <path d="M156 160 C156 142 170 128 188 128 L324 128 C342 128 356 142 356 160 L356 340 C356 368 334 392 306 392 L206 392 C178 392 156 368 156 340 Z" 
+          fill="rgba(255, 255, 255, 0.95)" />
+
+    <!-- Finance Card Pocket Accent -->
+    <path d="M156 220 L356 220 L356 340 C356 368 334 392 306 392 L206 392 C178 392 156 368 156 340 Z" 
+          fill="#ffffff" />
+    
+    <!-- Accent Line -->
+    <path d="M188 184 L324 184" stroke="#059669" stroke-width="12" stroke-linecap="round" />
+
+    <!-- Upward Trend Chart Line -->
+    <polyline points="188,328 232,284 272,308 324,244" 
+              fill="none" stroke="#10b981" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Chart Arrow Head -->
+    <polygon points="324,228 328,260 296,256" fill="#10b981" />
+
+    <!-- Floating Golden Coin Badge -->
+    <circle cx="344" cy="188" r="44" fill="url(#coinGrad)" stroke="#ffffff" stroke-width="8" />
+    <!-- Dollar / Currency Symbol inside Coin -->
+    <text x="344" y="202" font-family="system-ui, sans-serif" font-size="40" font-weight="900" fill="#78350f" text-anchor="middle">$</text>
+  </g>
+</svg>

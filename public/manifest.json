@@ -1,0 +1,90 @@
+{
+  "id": "/",
+  "name": "My Finance",
+  "short_name": "FinanzasPro",
+  "description": "Control financiero personal y empresarial",
+  "lang": "es",
+  "dir": "auto",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "development",
+    "education",
+    "finance",
+    "health",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Control de Vehículo",
+      "short_name": "Vehículo",
+      "description": "Registro de combustible, kilometraje y taller",
+      "url": "/?tab=vehicles",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Horas y Planilla",
+      "short_name": "Horas",
+      "description": "Cálculo y registro de horas suplementarias",
+      "url": "/?tab=work_hours",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Transacciones",
+      "short_name": "Movimientos",
+      "description": "Control de gastos, ingresos y transferencias",
+      "url": "/?tab=transactions",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

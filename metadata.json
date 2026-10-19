@@ -1,0 +1,8 @@
+{
+  "name": "My Finance",
+  "description": "Sistema de gestión financiera integral FinanzasPro con aislamiento estricto de espacios personales independientes, control de acceso de propietario, aprobación de nuevos usuarios con notificaciones, códigos de activación, balances editables con trazabilidad, metas de ahorro, cálculo de horas extras, control de vehículos y preparación para APK Android.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
